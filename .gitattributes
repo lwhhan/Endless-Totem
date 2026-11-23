@@ -1,0 +1,18 @@
+* text=auto
+
+# Java / Gradle / 配置
+*.java   text eol=lf
+*.gradle text eol=lf
+*.json   text eol=lf
+*.md     text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf
+gradlew      text eol=lf
+gradlew.bat  text eol=crlf
+*.bat        text eol=crlf
+
+# 二进制
+*.jar  binary
+*.png  binary
+*.ogg  binary
+*.zip  binary

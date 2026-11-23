@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "endless_totem:endless_totem",
+        "endless_totem:infinite_totem",
+        "endless_totem:enchant_totem",
+        "endless_totem:endless_box"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "item.endless_totem.endless_totem": "无尽图腾",
+    "item.endless_totem.endless_totem.durability": "耐久度 %s / %s",
+    "item.endless_totem.endless_totem.tooltip": "手持时免疫死亡",
+    "item.endless_totem.endless_totem.tooltip1": "效果：生命恢复 III、抗火、抗性提升 II、伤害吸收 II",
+    "item.endless_totem.endless_box": "无尽盒",
+    "item.endless_totem.endless_box.durability": "耐久度 %s / %s",
+    "item.endless_totem.infinite_totem": "∞图腾",
+    "item.endless_totem.infinite_totem.tooltip": "手持时免疫死亡",
+    "item.endless_totem.infinite_totem.tooltip1": "效果：延续不死图腾经典复活效果",
+    "item.endless_totem.enchant_totem": "附魔图腾",
+    "item.endless_totem.enchant_totem.tooltip": "手持时免疫死亡",
+    "item.endless_totem.enchant_totem.tooltip1": "效果：同∞图腾，时间统一减半20秒，伤害吸收2分钟",
+    "itemGroup.endless_totem": "无尽图腾"
+}

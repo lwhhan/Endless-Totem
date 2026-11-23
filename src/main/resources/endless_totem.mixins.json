@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"package": "com.wujin.totem.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"refmap": "endless_totem.refmap.json",
+	"mixins": [
+		"TotemReviveMixin",
+		"ItemStackDurabilityMixin",
+		"ContainerClickMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

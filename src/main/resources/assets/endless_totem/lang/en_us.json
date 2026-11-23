@@ -1,0 +1,15 @@
+{
+    "item.endless_totem.endless_totem": "Endless Totem",
+    "item.endless_totem.endless_totem.durability": "Durability: %s / %s",
+    "item.endless_totem.endless_totem.tooltip": "Prevents death when held",
+    "item.endless_totem.endless_totem.tooltip1": "Grants Regen III, Fire Res, Resistance II & Absorption II",
+    "item.endless_totem.endless_box": "Endless Box",
+    "item.endless_totem.endless_box.durability": "Durability: %s / %s",
+    "item.endless_totem.infinite_totem": "∞ Totem",
+    "item.endless_totem.infinite_totem.tooltip": "Prevents death when held",
+    "item.endless_totem.infinite_totem.tooltip1": "Grants classic Undying Totem effects",
+    "item.endless_totem.enchant_totem": "Enchanted Totem",
+    "item.endless_totem.enchant_totem.tooltip": "Prevents death when held",
+    "item.endless_totem.enchant_totem.tooltip1": "Same as ∞ Totem, all effects halved to 20s, Absorption 2min",
+    "itemGroup.endless_totem": "Endless Totem"
+}
