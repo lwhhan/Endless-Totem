@@ -84,13 +84,16 @@
 
 ## 从源码构建
 
+**构建需要 JDK 21**（`fabric-loom` 1.17 起要求运行 Gradle 的 JVM 至少为 21）。
+这不影响玩家侧：`build.gradle` 里设了 `options.release = 17`，编译出的字节码仍是 Java 17，玩家用 Java 17 就能跑。
+
 ```bash
 ./gradlew build
 # Windows
 gradlew.bat build
 ```
 
-产物在 `build/libs/`。
+产物在 `build/libs/`，文件名形如 `无尽图腾_EndlessTotem-1.0.0.jar`。
 
 > 国内网络如果下载 Gradle 发行包慢，可以把 `gradle/wrapper/gradle-wrapper.properties`
 > 里的 `distributionUrl` 换成腾讯云镜像：

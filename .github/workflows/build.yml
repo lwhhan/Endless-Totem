@@ -32,11 +32,13 @@ jobs:
           echo "--- 替换后的 wrapper 配置 ---"
           cat gradle/wrapper/gradle-wrapper.properties
 
-      - name: Set up JDK 17
+      # 必须是 21：fabric-loom 1.17+ 要求运行 Gradle 的 JVM 至少是 21。
+      # 注意这只是"跑构建的 JDK"，产物字节码仍由 options.release=17 控制，玩家侧 Java 17 即可
+      - name: Set up JDK 21
         uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: "17"
+          java-version: "21"
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
